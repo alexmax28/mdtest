@@ -1,0 +1,35 @@
+.raw{
+	background-color: red;
+}
+*{
+	box-sizing: border-box;
+}
+p{
+	text-align: center;
+}
+div{
+	display: block;
+}
+img{
+	max-width: 100%;
+}
+span{
+	font-size: 12px;
+	max-width: 20px;
+	margin-left: 0px;
+}
+.container-fluid>div>div{
+/*	border: solid 1px #333; */
+	text-align: center;
+
+.clear{
+	clear: both;
+}
+.contener{
+	margin-top: 100px;
+}
+.nav{
+	background-color: red;
+	max-width: 100%;
+	height: 30%;
+}

@@ -1,0 +1,160 @@
+﻿body {
+}
+div a{
+    color:#ffffff;
+    font-size:36px;
+    text-align:center;
+}
+.MDmark {
+    width: 30%;
+    margin: 80px 30px;
+    text-align: center;
+    float: left;
+}
+
+.MD_memu {
+    width:300px;
+    color: #ffffff;
+    float: right;
+    margin: 70px 30px;
+    /*text-align:center;*/
+    
+}
+.MD_memu ul{
+    width:300px;
+    padding-left:0px;
+    text-align:center;
+}
+    .MD_memu li {
+        list-style: none;
+        float: right;
+        margin-top: 5px;
+        /*display:block;*/
+        text-align: center;
+    }
+ .MD_memu li:hover {
+    border: solid 1px #ffffff;
+    font-size: 20px;
+        }
+.MD_memu ul li a{
+    font-size:20px;
+    /*display:block;*/
+    margin-right:10px;
+    margin-left:10px;
+    text-decoration:none;
+    font-family: 'Pacifico', cursive;
+}
+
+.footer {
+    width: 100%;
+    height: 30px;
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    opacity:0.6;
+    text-align:center;
+    clear:both;
+}
+.footer a{
+    color:#ffffff;
+    font-size:12px;
+
+}
+
+
+
+
+    /*        適用螢幕寬度小於480px的裝置（當螢幕小於480px時）*/
+    @media screen and (max-width:480px) {
+        .MDmark {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 100px;
+            text-align: center;
+            /*background-color:#ff0000;*/
+        }
+
+        .MD_memu {
+            width: 100%;
+            color: #ffffff;
+            margin: 0 auto;
+            /*background-color: #b6ff00;*/
+            text-align: center;
+            display: inline-block;
+            float: none;
+        }
+
+        .MDmark a {
+            width: 100%;
+        }
+
+        .MD_memu ul {
+            /*width:100%;*/
+            margin: 0 auto;
+            margin-top: 200px;
+        }
+
+        .MD_memu li {
+            /*background-color:#09b5f9;*/
+            float: none;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+            .MD_memu li a {
+                margin: 0 auto;
+            }
+        .MD_memu li a:hover{
+            color:#000000;
+        }
+    }
+    /*        適用於平版直著拿的情況（平版橫著拿的情況就和電腦螢幕相同）*/
+    @media screen and (min-width:481px) and (max-width:768px) {
+        .MDmark {
+            width: 100%;
+            margin: 0 auto;
+            margin-top: 20px;
+            text-align: center;
+            /*background-color:#ff0000;*/
+        }
+
+        .MD_memu {
+            width: 100%;
+            color: #ffffff;
+            margin: 0 auto;
+            /*background-color: #b6ff00;*/
+            text-align: center;
+            display: inline-block;
+            float: none;
+        }
+
+        .MDmark a {
+            width: 100%;
+        }
+
+        .MD_memu ul {
+            /*width:100%;*/
+            margin: 0 auto;
+            margin-top: 110px;
+        }
+
+        .MD_memu li {
+            /*background-color:#09b5f9;*/
+            float: none;
+            display: block;
+            margin: 0 auto;
+            margin-top: 10px;
+        }
+
+            .MD_memu li a {
+                margin: 0 auto;
+            }
+
+                .MD_memu li :hover {
+                    color: #000000;
+                }
+
+        
+    }
